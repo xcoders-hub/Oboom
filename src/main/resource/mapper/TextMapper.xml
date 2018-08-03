@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.oboom.mapper.TextMapper">
+
+    <insert id="save" parameterType="com.oboom.pojo.Text" >
+        insert into t_article(at_title,at_text) value(#{at_title},#{at_text})
+    </insert>
+    <select id="look" parameterType="long" resultType="com.oboom.pojo.Text">
+        select * from t_article where at_id=#{at_id}
+    </select>
+
+</mapper>
