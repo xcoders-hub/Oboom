@@ -16,7 +16,7 @@
         <!-- 控制台输出  -->
         <Console name="console_out_appender" target="SYSTEM_OUT">
             <!-- level定义级别 -->
-            <ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+            <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
             <PatternLayout pattern="${log_pattern_highlight}"/>
         </Console>
         <!--这个输出控制台的配置，这里输出warn和error级别的信息到System.err，在eclipse控制台上看到的是红色文字 -->
