@@ -2,32 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e200297-96ba-45d8-8a0e-33c24d4bbccd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.example/config/SpringConfig/ErrorPageConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.example/config/a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.example/controller/ErrorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.example/exception/OboomExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.example/utils/JSONResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.example/utils/ResponseUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.example/utils/aspect/LogAspect.aj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.example/utils/urlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/errorPage/errorPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/errorPage/bird.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/errorPage/san.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/errorPage/yun0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/errorPage/yun1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/errorPage/yun2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/public.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/errorPage/jquery-1.7.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.example/entity/MailEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.example/test/TestMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.example/utils/Mail/MailContentTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.example/utils/Mail/MailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.example/utils/Mail/MailUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.example/utils/Mail/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/mail_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/templates/Mail/mail1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.example/config/DruidStatFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.example/config/DruidConfig/DruidStatFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.example/config/DruidStatViewServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.example/config/DruidConfig/DruidStatViewServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.example/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.example/controller/ApiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resource/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/log4j2.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,26 +56,13 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="106" column="56" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
-              <folding>
-                <element signature="n#resources#0;n#build#0;n#project#0;n#!!top" />
-                <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -100,6 +74,11 @@
       <find>.springframework.boot</find>
       <find>api</find>
       <find>alibab</find>
+      <find>zh_CN</find>
+      <find>contentType</find>
+      <find>br</find>
+      <find>System</find>
+      <find>br&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>example</replace>
@@ -129,10 +108,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com.example/exception/OboomExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.example/utils/aspect/LogAspect.aj" />
         <option value="$PROJECT_DIR$/src/main/resource/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com.example/controller/ErrorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.example/config/SpringConfig/ErrorPageConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com.example/entity/MailEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.example/utils/Mail/MailContentTypeEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.example/utils/Mail/PropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.example/test/MailSender.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/mail_zh_CN.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com.example/utils/Mail/MailSender.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/templates/Mail/mail1.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com.example/utils/Mail/MailUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.example/test/TestMail.java" />
+        <option value="$PROJECT_DIR$/target/classes/templates/Mail/mail1.html" />
       </list>
     </option>
   </component>
@@ -175,8 +164,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="80" />
-    <option name="y" value="25" />
+    <option name="x" value="705" />
+    <option name="y" value="55" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -188,8 +177,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -231,7 +220,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com.example" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
@@ -240,8 +229,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com.example" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="DruidConfig" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
@@ -250,53 +238,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com.example" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringConfig" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oboom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.example" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oboom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.example" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oboom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.example" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oboom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.example" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oboom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.example" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="Mail" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
@@ -312,6 +255,62 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oboom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oboom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Mail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oboom" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oboom" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oboom" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oboom" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oboom" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Mail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oboom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oboom" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,6 +319,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="true" />
@@ -341,11 +341,11 @@
       <recent name="com.example.config.SpringConfig" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\Oboom\src\main\webapp" />
-      <recent name="D:\IdeaProjects\Oboom\src\main\java\com.example\utils" />
-      <recent name="D:\IdeaProjects\Oboom\src\main\resource\mapper" />
-      <recent name="D:\IdeaProjects\Oboom\src\main\java\com.example" />
       <recent name="D:\IdeaProjects\Oboom\src\main\resource" />
+      <recent name="D:\IdeaProjects\Oboom\src\main\java\com.example\test" />
+      <recent name="D:\IdeaProjects\Oboom\src\main\java\com.example\utils\Mail" />
+      <recent name="D:\IdeaProjects" />
+      <recent name="D:\IdeaProjects\Oboom\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -360,7 +360,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.TestMail">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Application" />
       <module name="Oboom" />
@@ -368,6 +368,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestMail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.test.TestMail" />
+      <module name="Oboom" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -420,9 +431,11 @@
     <list>
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Application.Application" />
+      <item itemvalue="Application.TestMail" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMail" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -443,45 +456,106 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11657000" />
+    <option name="totallyTimeSpent" value="25412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50067025" side_tool="true" weight="0.59150803" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.37868634" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50067025" side_tool="true" weight="0.0" />
+      <window_info anchor="right" id="Maven Projects" order="11" weight="0.37868634" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Database" order="1" weight="0.2077748" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.2077748" />
+      <window_info id="Structure" order="6" sideWeight="0.5016129" side_tool="true" weight="0.25670242" />
+      <window_info anchor="right" id="Ant Build" order="17" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49932975" weight="0.48609078" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" sideWeight="0.49932975" visible="true" weight="0.4465593" />
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info active="true" anchor="bottom" id="Messages" order="2" visible="true" weight="0.32796487" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.4919473" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.329429" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.68667644" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.329429" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.329429" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2533512" />
-      <window_info anchor="right" id="Bean Validation" order="7" weight="0.3297587" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49919224" visible="true" weight="0.25670242" />
+      <window_info anchor="right" id="Bean Validation" order="13" weight="0.3297587" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.47877014" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" weight="0.329429" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50067025" side_tool="true" weight="0.59150803" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2533512" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="16" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.329429" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="12" weight="0.37868634" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.329429" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.329429" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="right" id="Bean Validation" order="14" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="3" weight="0.2077748" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.329429" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.329429" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49932975" weight="0.48609078" />
+      <window_info active="true" anchor="bottom" id="Messages" order="2" visible="true" weight="0.32796487" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="10" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="0" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.329429" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.329429" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.0" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.329429" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50067025" side_tool="true" weight="0.59150803" />
+      <window_info active="true" anchor="bottom" id="Messages" order="2" visible="true" weight="0.32796487" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.329429" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.37868634" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.329429" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2533512" />
+      <window_info anchor="right" id="Database" order="1" weight="0.2077748" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49932975" weight="0.48609078" />
+      <window_info anchor="right" id="Bean Validation" order="7" weight="0.3297587" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -489,18 +563,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resource/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
@@ -572,23 +644,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com.example/utils/ResponseUtils.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.example/utils/aspect/LogAspect.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.example/utils/JSONResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,13 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -691,20 +743,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/CountryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="184" column="34" selection-start-line="184" selection-start-column="34" selection-end-line="184" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/CityMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -824,6 +862,7 @@
           <settings layout="Hierarchic Group" zoom="0.10871287128712871" x="2515.0" y="555.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
@@ -834,27 +873,9 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fa2b2c2f-d8f7-4e59-a11a-bf0260f6f8bc/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://fa2b2c2f-d8f7-4e59-a11a-bf0260f6f8bc/schema/t_warn/table/city">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://fa2b2c2f-d8f7-4e59-a11a-bf0260f6f8bc/schema/t_warn/table/country">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://fa2b2c2f-d8f7-4e59-a11a-bf0260f6f8bc/schema/t_warn/table/customers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://fa2b2c2f-d8f7-4e59-a11a-bf0260f6f8bc/schema/t_warn/table/city" />
+    <entry file="das://fa2b2c2f-d8f7-4e59-a11a-bf0260f6f8bc/schema/t_warn/table/country" />
+    <entry file="das://fa2b2c2f-d8f7-4e59-a11a-bf0260f6f8bc/schema/t_warn/table/customers" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com.example/config/DruidConfig/DruidStatFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -862,13 +883,135 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="76" selection-start-line="76" selection-end-line="81" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mail_zh_CN.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/CityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.example/entity/MailEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.example/utils/Mail/MailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.example/utils/Mail/PropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/CountryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="184" column="34" selection-start-line="184" selection-start-column="34" selection-end-line="184" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.example/utils/Mail/MailContentTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.example/utils/aspect/LogAspect.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/templates/Mail/mail1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="106" column="56" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
+        <state relative-caret-position="240">
+          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
           <folding>
             <element signature="n#resources#0;n#build#0;n#project#0;n#!!top" />
             <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_25/src.zip!/com/sun/org/apache/xerces/internal/util/ErrorHandlerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/templates/Mail/mail1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.example/utils/Mail/MailUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.example/test/TestMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
