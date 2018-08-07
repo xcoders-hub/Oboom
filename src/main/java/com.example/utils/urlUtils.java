@@ -53,7 +53,7 @@ public final class urlUtils {
             URL url=new URL(urls);
             connection=(HttpURLConnection) url.openConnection();
             connection.setConnectTimeout(4000);//设置连接超时时间
-            connection.setReadTimeout(4000); //设置读取超时时间
+            connection.setReadTimeout(10000); //设置读取超时时间
             connection.setDoInput(true);
             connection.setRequestProperty("User-Agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;SV1)");
             connection.setRequestProperty("Connection", "Keep-Alive");// 设置维持长连接

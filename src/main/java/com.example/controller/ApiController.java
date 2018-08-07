@@ -39,5 +39,14 @@ public class ApiController {
         cityService.saveTransaction();
         return "saveTransaction";
     }
+    @RequestMapping("/user/login_view")
+    public City savesTransaction() {
+        return cityService.getCityById(3);
+    }
+    @RequestMapping("/user/index")
+    public City savessTransaction() {
+        return cityService.getCityById(3);
+    }
+
 
 }

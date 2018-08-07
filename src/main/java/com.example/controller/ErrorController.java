@@ -5,15 +5,20 @@ import org.apache.commons.lang.StringEscapeUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
-
 import java.util.Random;
+/**
+ * @author liangkanglin
+ * @date 2018/8/7 9:19
+ * @param
+ * @return
+ * code:错误页面的控制器
+ */
 
 @Controller
 @RequestMapping(value = "/errorPage")
-public class ErrorController {
+public class ErrorController  {
 
     @RequestMapping(value = "/404")
     public ModelAndView notFound() {
@@ -30,4 +35,6 @@ public class ErrorController {
         mav.setViewName("errorPage");
         return mav;
     }
+
+
 }
